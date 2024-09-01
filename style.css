@@ -1,0 +1,117 @@
+#curriculum {
+  position: relative;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+body {
+  text-align: center;
+  background: white;
+  font-family: "Raleway", sans-serif;
+}
+/* Activity 5 Step 1 Add color for all heading and paragraph */
+
+#list {
+  background: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul li:empty {
+  display: none;
+}
+#color1 {
+  color: darkgreen;
+}
+
+#button1 {
+  /* Activity 5 Step 2 Add color for button */
+
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.description {
+  line-height: 2;
+  color: #666;
+  max-width: 820px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.text-gray {
+  color: #9a9a9a;
+}
+
+.curriculum__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.curriculum__card-item {
+  padding: 20px;
+  box-shadow: 0px 11px 18px #00000014;
+  border-radius: 26px;
+  width: 90%;
+}
+.text-green {
+  color: #3eb232;
+}
+
+.bg-red {
+  background-color: #f95a3b;
+}
+
+.curriculum__card-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+  color: #fff;
+}
+.my-15 {
+  font-weight: 200;
+  font-size: 30px;
+}
+.bg-yellow {
+  background-color: #eecd00;
+}
+.bg-green {
+  background-color: #0e6e05;
+}
+.price {
+  display: inline-flex;
+}
